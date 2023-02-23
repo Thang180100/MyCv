@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bd {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+/* container */
+.container {
+    background-color: gainsboro;
+}
+.container__content {
+    display: flex;
+} 
+
+/* hr */
+.item__left-hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.item__right-hr {
+    width: 99%;
+    margin: 0 auto;
+    margin: 30px 0;
+}
+
+/* item-left */
+.item__left {
+    margin: 20px 0 0 35px;
+    width: 33%;
+    height: 970px;
+    background-color: white;
+}
+.item__left i {
+    color: darkcyan;
+}
+.item__left h2 {
+    font-weight: bold;
+    color: darkred;
+}
+.item__left h5 {
+    color: gray;
+}
+
+.item__avatar {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: whitesmoke;
+}
+.item__img {
+    width: 50%;
+    height: 100%;
+}
+.item__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.item__name {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.item__name h2 {
+    margin-bottom: 10px;
+}
+.item__name h2{
+    margin-top: 100px;
+}
+
+/* item-left info */
+.item-left .item__info {
+    color: gray;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+}
+.info__private {
+    display: block;
+    padding: 10px 20px ;
+}
+.info__private i {
+    margin-right: 20px;
+}
+.info__private div {
+    padding: 10px 0;
+}
+
+/* item-left skill */
+.item__left .item__skill {
+    color: gray;
+    padding: 50px 20px;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+}
+.item__skill .percent-100 {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    height: 20px;
+    background-color: whitesmoke;
+}
+.item__skill .percent-90 {
+    width: 90%;
+    height: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+.item__skill .percent-80 {
+    width: 80%;
+    height: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+.item__skill .percent-70 {
+    width: 70%;
+    height: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+.item__skill .percent-60 {
+    width: 60%;
+    height: 100% ;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+.item__skill i {
+    margin-right: 20px;
+}
+.item__skill div {
+    margin-bottom: 20px;
+}
+.item__languages {
+    margin-top: 40px;
+}
+
+/* item-right */
+.item__right {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 61%;
+    height: 1000px;
+    color: gray;
+}
+.item__right .item__work {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+}
+.item__work i {
+   margin-right: 20px;
+   color: darkcyan;
+}
+.item__education div {
+    margin-bottom: 10px;
+}
+
+/* item__objective */
+.item__objective {
+    margin: 40px 0;
+}
+.item__objective div {
+    margin-bottom: 20px;
+}
+
+/* item__interests */
+.item__interests div {
+    margin-bottom: 20px;
+}
+
+/* item-right projects */
+.item__projects {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    padding: 20px 20px;
+}
+.item__projects i {
+    color: darkcyan;
+    margin-right: 20px;
+}
+.item__projects div {
+    margin-bottom: 20px;
+}
+
+/* footer */
+.container__footer {
+    width: 100%;
+    height: 150px;
+    background-color: darkcyan;
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px ;
+    color: white;
+}
+.container__footer div {
+    margin-bottom: 10px;
+}
+.container__footer a {
+    color: white;
+}
+
+
+.project {
+    color : red
+}
